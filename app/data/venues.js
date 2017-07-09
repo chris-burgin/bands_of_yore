@@ -58,6 +58,10 @@ const venues = [
   {
     data: "[noun]",
     build: (arr) => `${arr[0]} Manor`
+  },
+  {
+    data: "[adjective]",
+    build: (arr) => `${arr[0]} Monastery`
   }
 ]
 

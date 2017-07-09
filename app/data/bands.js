@@ -52,8 +52,8 @@ const tweets = [
     build: arr => `${arr[0]} and the ${arr[1]} ${arr[2]}`
   },
   {
-    data: "[noun] [noun]",
-    build: arr => `${arr[0]} slayer of ${arr[1]}`
+    data: "[noun] [adjective] [noun]",
+    build: arr => `${arr[0]} ${arr[1]} of ${arr[2]}`
   },
   {
     data: "[adjective] [noun]",
@@ -66,6 +66,10 @@ const tweets = [
   {
     data: "[noun]",
     build: arr => `The ${arr[0]}`
+  },
+  {
+    data: "[noun] [noun]",
+    build: arr => `The ${arr[0]} ${arr[1]}`
   },
   {
     data: "[adjective] [noun]",

@@ -9,4 +9,4 @@ const sendTweet = require("./functions/sendTweet")
 // ****************
 // Main
 // ****************
-sendTweet(buildTweet())
+sendTweet(buildTweet()) 
