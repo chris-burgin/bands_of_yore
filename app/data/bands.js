@@ -64,6 +64,10 @@ const tweets = [
     build: arr => `${arr[0]} of ${arr[1]}`
   },
   {
+    data: "[adjective] [adjective] [noun]",
+    build: arr => `${arr[0]} ${arr[1]} ${arr[2]}`
+  },
+  {
     data: "[noun]",
     build: arr => `The ${arr[0]}`
   },
