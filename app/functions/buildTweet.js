@@ -4,6 +4,7 @@
 // import data
 const nouns = require("../data/nouns")
 const tweets = require("../data/tweets")
+const adjectives = require("../data/adjectives")
 
 // import functions
 const randomNumber = require("./randomNumber") 
@@ -41,5 +42,6 @@ const getRandomEntry = (data) =>
 
 // data switch for tweets
 const dataSwitch = {
-  "[noun]": nouns
+  "[noun]": nouns,
+  "[adjective]": adjectives
 }
