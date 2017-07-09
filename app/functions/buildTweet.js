@@ -2,12 +2,14 @@
 // Imports
 // ****************
 // import data
+const adjectives = require("../data/adjectives")
 const nouns = require("../data/nouns")
 const tweets = require("../data/tweets")
-const adjectives = require("../data/adjectives")
 
 // import functions
-const randomNumber = require("./randomNumber") 
+const getRandomEntry = require("./getRandomEntry")
+const buildBand = require("./buildBand") 
+const buildVenue = require("./buildVenue") 
 
 // ****************
 // Function
@@ -30,19 +32,14 @@ const buildTweet = () => {
   return tweet.build(inserts)
 }
 
-// export tweet
+// export function
 module.exports = buildTweet
 
-// ****************
-// Functions
-// ****************
-// get random from array
-const getRandomEntry = (data) =>
-  data[randomNumber(0, data.length - 1)]
-
-
-// data switch for tweets
+// Data Switch
+// TODO: Abstract Data Switch
 const dataSwitch = {
+  "[adjective]": adjectives,
+  "[band]": buildBand(),
   "[noun]": nouns,
-  "[adjective]": adjectives
+  "[venue]": buildVenue()
 }
