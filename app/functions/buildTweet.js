@@ -5,11 +5,12 @@
 const adjectives = require("../data/adjectives")
 const nouns = require("../data/nouns")
 const tweets = require("../data/tweets")
+const bands = require("../data/bands")
+const venues = require("../data/venues")
 
 // import functions
 const getRandomEntry = require("./getRandomEntry")
-const buildBand = require("./buildBand") 
-const buildVenue = require("./buildVenue") 
+const buildComponent = require("./buildComponent") 
 
 // ****************
 // Function
@@ -39,7 +40,7 @@ module.exports = buildTweet
 // TODO: Abstract Data Switch
 const dataSwitch = {
   "[adjective]": adjectives,
-  "[band]": buildBand(),
+  "[band]": buildComponent(bands),
   "[noun]": nouns,
-  "[venue]": buildVenue()
+  "[venue]": buildComponent(venues)
 }

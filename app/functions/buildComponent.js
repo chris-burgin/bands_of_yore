@@ -2,7 +2,6 @@
 // Imports
 // ****************
 // import data
-const venues = require("../data/venues")
 const nouns = require("../data/nouns")
 const adjectives = require("../data/adjectives")
 
@@ -12,29 +11,29 @@ const getRandomEntry = require("./getRandomEntry")
 // ****************
 // Function
 // ****************
-// build venue function
-const buildVenue = () => {
-  // get new venue
-  const venue = getRandomEntry(venues)
+// build component function
+const buildComponent = (components) => {
+  // get new component
+  const component = getRandomEntry(components)
 
-  // build venue inserts
+  // build component inserts
   const inserts = 
-    venue.data
+    component.data
       .split(" ")
       .map(type =>
         dataSwitch[type]
           ? getRandomEntry(dataSwitch[type]).value
           : type)
 
-  // return the venue
+  // return the component
   // note: to re-use functions and prevent lots of specific code
   // the return of this funciton must be wrapped in [{}]. Annoying,
   // but slightly better this way. (for now)
-  return [{value: venue.build(inserts)}]
+  return [{value: component.build(inserts)}]
 }
 
-// export venue
-module.exports = buildVenue
+// export component
+module.exports = buildComponent
 
 // Data Switch
 // TODO: Abstract Data Switch

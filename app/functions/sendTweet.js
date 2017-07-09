@@ -19,8 +19,9 @@ const sendTweet = tweet => {
     access_token_secret: config.access_token_secret
   })
 
-  client.post("statuses/update", {status: tweet}, error => 
-    error ? console.log(error) : false)
+  // client.post("statuses/update", {status: tweet}, error => 
+  //   error ? console.log(error) : false)
+  console.log(tweet)
 }
 
 // export
