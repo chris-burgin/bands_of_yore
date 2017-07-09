@@ -40,6 +40,7 @@ module.exports = buildTweet
 const getRandomEntry = (data) =>
   data[randomNumber(0, data.length - 1)]
 
+
 // data switch for tweets
 const dataSwitch = {
   "[noun]": nouns,
