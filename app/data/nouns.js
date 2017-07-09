@@ -132,11 +132,21 @@ const nouns = [
   {value: "Boat"},
   {value: "Oar"},
   {value: "Fish"},
+  {value: "Humans"},
+  {value: "Cats"},
+  {value: "Dogs"},
+  {value: "Rats"},
   {value: "Ice"},
   {value: "Land"},
   {value: "Thunder"},
   {value: "Lightning"},
-  {value: "Stream"}
+  {value: "Stream"},
+  {value: "River"},
+  {value: "Light"},
+  {value: "Dark"},
+  {value: "Mountain"},
+  {value: "Trench"},
+  {value: "Medicine"}
 ]
 
 module.exports = nouns
