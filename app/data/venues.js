@@ -28,7 +28,7 @@ const venues = [
     build: (arr) => `${arr[0]} Faire`
   },
   {
-    data: "[noun]",
+    data: "[adjective]",
     build: (arr) => `${arr[0]} Joust`
   },
   {
@@ -52,7 +52,7 @@ const venues = [
     build: (arr) => `${arr[0]} Citadel Gates`
   },
   {
-    data: "[noun]",
+    data: "[adjective]",
     build: (arr) => `${arr[0]} Church Grave Yard`
   },
   {

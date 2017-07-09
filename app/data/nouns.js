@@ -146,7 +146,8 @@ const nouns = [
   {value: "Dark"},
   {value: "Mountain"},
   {value: "Trench"},
-  {value: "Medicine"}
+  {value: "Medicine"},
+  {value: "Rock Men"}
 ]
 
 module.exports = nouns
