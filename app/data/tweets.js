@@ -25,11 +25,11 @@ const tweets = [
   },
   {
     data: "[adjective] [noun] [noun]",
-    build: arr => `${arr[0]} ${arr[1]} ${arr[2]}`
+    build: arr => `${arr[0]} ${arr[1]} ${arr[2]}.`
   },
   {
     data: "[noun] [noun] [noun]",
-    build: arr => `${arr[0]} ${arr[1]} ${arr[2]}`
+    build: arr => `${arr[0]} ${arr[1]} ${arr[2]}.`
   },
   {
     data: "[noun] [noun] [noun]",
@@ -57,11 +57,11 @@ const tweets = [
   },
   {
     data: "[adjective] [noun]",
-    build: arr => `${arr[0]} ${arr[1]}`
+    build: arr => `${arr[0]} ${arr[1]}.`
   },
   {
     data: "[adjective] [noun]",
-    build: arr => `${arr[0]} of ${arr[1]}`
+    build: arr => `${arr[0]} of ${arr[1]}.`
   }
 ]
 
