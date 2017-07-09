@@ -4,9 +4,9 @@
 
 // import functions
 const buildTweet = require("./functions/buildTweet")
-
+const sendTweet = require("./functions/sendTweet")
 
 // ****************
 // Main
 // ****************
-console.log(buildTweet())
+sendTweet(buildTweet())
