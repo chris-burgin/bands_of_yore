@@ -10,10 +10,12 @@ const venues = require("../data/venues")
 
 // import functions
 const getRandomEntry = require("./getRandomEntry")
-const buildComponent = require("./buildComponent") 
+const buildComponent = require("./buildComponent")
 
 // ****************
-// Function
+// buildTweet()
+// use: builds a tweet to be tweeted on twitter.
+// returns: a full fledged tweet ripe and ready for the web.
 // ****************
 // build tweet function
 const buildTweet = () => {
@@ -21,7 +23,7 @@ const buildTweet = () => {
   const tweet = getRandomEntry(tweets)
 
   // build tweet inserts
-  const inserts = 
+  const inserts =
     tweet.data
       .split(" ")
       .map(type =>
