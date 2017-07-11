@@ -8,7 +8,11 @@ const config = require("../config")
 const twitter = require("twitter")
 
 // ****************
-// Function
+// sendTweet()
+// use: builds a tweet to be tweeted on twitter.
+// returns: a full fledged tweet ripe and ready for the web.
+// ----------------
+// tweet: required - string - tweet (band name) to be the body of the tweet.
 // ****************
 const sendTweet = tweet => {
   // create the twitter client
@@ -20,7 +24,7 @@ const sendTweet = tweet => {
   })
 
   // send tweet
-  client.post("statuses/update", {status: tweet}, error => 
+  client.post("statuses/update", {status: tweet}, error =>
     error ? console.log(error) : console.log("TWEET: ", tweet))
 }
 

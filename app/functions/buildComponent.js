@@ -9,7 +9,11 @@ const adjectives = require("../data/adjectives")
 const getRandomEntry = require("./getRandomEntry")
 
 // ****************
-// Function
+// buildComponent()
+// use: builds a component to place in a tweet.
+// returns: a component to be placed into the tweet.
+// ----------------
+// components: required - template_literals - template literal list of data to pull from.
 // ****************
 // build component function
 const buildComponent = (components) => {
@@ -17,7 +21,7 @@ const buildComponent = (components) => {
   const component = getRandomEntry(components)
 
   // build component inserts
-  const inserts = 
+  const inserts =
     component.data
       .split(" ")
       .map(type =>
