@@ -115,8 +115,18 @@ const adjectives = [
   {value: "Amiable"},
   {value: "Indented"},
   {value: "Beauteous"},
-  {value: "Glorious"}
-
+  {value: "Glorious"},
+  {value: "Ancient"},
+  {value: "Adamant"},
+  {value: "Mystical"},
+  {value: "Caustic"},
+  {value: "Heuristic"},
+  {value: "Irksome"},
+  {value: "Querulous"},
+  {value: "Serpentine"},
+  {value: "Zealous"},
+  {value: "Turbulent"},
+  {value: "Withering"}
 ]
 
 module.exports = adjectives
