@@ -18,7 +18,7 @@ const tweets = [
   },
   {
     data: "[band] [band] [venue]",
-    build: arr => `Don't miss ${arr[0]} with ${arr[1]} todat at ${arr[2]}!`
+    build: arr => `Don't miss ${arr[0]} with ${arr[1]} today at ${arr[2]}!`
   }
 ]
 
