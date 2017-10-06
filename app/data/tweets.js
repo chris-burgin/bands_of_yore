@@ -17,6 +17,10 @@ const tweets = [
     build: arr => `Catch ${arr[0]} playing at ${arr[1]}!`
   },
   {
+    data: "[band] [band] [venue]",
+    build: arr => `Don't miss ${arr[0]} with ${arr[1]} today at ${arr[2]}!`
+  },
+  {
     data: "[band] [venue]",
     build: arr => `Get your horse and come to ${arr[0]} at ${arr[1]}.`
   },
