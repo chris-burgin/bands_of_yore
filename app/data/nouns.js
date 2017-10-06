@@ -297,6 +297,13 @@ const nouns = [
   {value: "Bane"},
   {value: "Artic"},
   {value: "Alina"},
+  {value: "Beholder"},
+  {value: "Worgen"},
+  {value: "Druid"},
+  {value: "Shaman"},
+  {value: "Necromancer"},
+  {value: "Drow"},
+  {value: "Orc"}
 ]
 
 module.exports = nouns
