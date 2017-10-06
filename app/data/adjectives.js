@@ -7,7 +7,7 @@ const adjectives = [
   {value: "Blood Red"},
   {value: "Swift"},
   {value: "Destroyer"},
-  {value: "Begger"},
+  {value: "Beggar"},
   {value: "Farming"},
   {value: "Beat"},
   {value: "Kick"},
@@ -107,14 +107,16 @@ const adjectives = [
   {value: "Holy"},
   {value: "Calm"},
   {value: "Chivalry"},
-  {value: "Raggad"},
+  {value: "Ragged"},
   {value: "Elven"},
   {value: "Burdened"},
   {value: "Reckless"},
   {value: "Suffering"},
   {value: "Amiable"},
   {value: "Indented"},
-  {value: "Beauteous"}
+  {value: "Beauteous"},
+  {value: "Glorious"}
+
 ]
 
 module.exports = adjectives
