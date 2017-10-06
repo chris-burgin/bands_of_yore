@@ -18,7 +18,7 @@ const tweets = [
   },
   {
     data: "[days] [band] [venue]",
-    build: arr => `This ${arr[0]}, come and see ${arr[0]} dropping their new sound at ${arr[1]}!`
+    build: arr => `This ${arr[0]}, come and see ${arr[1]} dropping their new sound at ${arr[2]}!`
   }
 ]
 
