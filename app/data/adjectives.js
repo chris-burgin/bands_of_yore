@@ -145,7 +145,11 @@ const adjectives = [
   {value: "Silly"},
   {value: "Clumsy"},
   {value: "Brave"},
-  {value: "Grumpy"}
+  {value: "Grumpy"},
+  {value: "Chipper"},
+  {value: "Jubilant"},
+  {value: "Victorious"},
+  {value: "Seafaring"}
 ]
 
 module.exports = adjectives
