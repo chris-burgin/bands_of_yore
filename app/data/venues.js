@@ -62,7 +62,20 @@ const venues = [
   {
     data: "[adjective]",
     build: (arr) => `${arr[0]} Monastery`
+  },
+   {
+    data: "[noun]",
+    build: (arr) => `${arr[0]} Abbey`
+  },
+   {
+    data: "[noun]",
+    build: (arr) => `${arr[0]} Priory`
+  },
+   {
+    data: "[noun]",
+    build: (arr) => `${arr[0]} Cloister`
   }
+  
 ]
 
 module.exports = venues
