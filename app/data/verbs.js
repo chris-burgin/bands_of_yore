@@ -28,7 +28,8 @@ const verbs = [
   {value: "irritate"},
   {value: "jabber"},
   {value: "kill"},
-  {value: "learn"}
+  {value: "learn"},
+  {value: "write")
 
 ]
 
