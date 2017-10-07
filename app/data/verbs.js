@@ -21,6 +21,7 @@ const verbs = [
   {value: "grease"},
   {value: "grumble"},
   {value: "hammer"},
+  {value: "haunt"},
   {value: "hinder"},
   {value: "howl"},
   {value: "identify"},
@@ -28,7 +29,9 @@ const verbs = [
   {value: "irritate"},
   {value: "jabber"},
   {value: "kill"},
-  {value: "learn"}
+  {value: "learn"},
+  {value: "observe"},
+  {value: "ponder"}
 
 ]
 
