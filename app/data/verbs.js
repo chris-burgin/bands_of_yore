@@ -28,8 +28,25 @@ const verbs = [
   {value: "irritate"},
   {value: "jabber"},
   {value: "kill"},
-  {value: "learn"}
-
+  {value: "learn"},
+  {value: "see"},
+  {value: "spy"},
+  {value: "swallow"},
+  {value: "stomp"},
+  {value: "murder"},
+  {value: "meander"},
+  {value: "know"},
+  {value: "oppose"},
+  {value: "putrify"},
+  {value: "read"},
+  {value: "return"},
+  {value: "run"},
+  {value: "tumble"},
+  {value: "tarnish"},
+  {value: "tinker"},
+  {value: "turn"},
+  {value: "unify"},
+  {value: "yell"}
 ]
 
 module.exports = verbs
