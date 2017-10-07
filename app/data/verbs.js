@@ -28,7 +28,22 @@ const verbs = [
   {value: "irritate"},
   {value: "jabber"},
   {value: "kill"},
-  {value: "learn"}
+  {value: "learn"},
+  {value: "defend"},
+  {value: "explore"},
+  {value: "slay"},
+  {value: "venture"},
+  {value: "betray"},
+  {value: "fight"},
+  {value: "practice"},
+  {value: "seek"},
+  {value: "rescue"},
+  {value: "besiege"},
+  {value: "trap"},
+  {value: "assist"},
+  {value: "serenade"},
+  {value: "inquire"},
+  {value: "conjure"}
 
 ]
 
