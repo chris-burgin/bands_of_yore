@@ -35,6 +35,7 @@ const verbs = [
   {value: "howl"},
   {value: "identify"},
   {value: "improve"},
+  {value: "instigate"},
   {value: "irritate"},
   {value: "jabber"},
   {value: "ken"},
