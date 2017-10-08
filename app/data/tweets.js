@@ -37,6 +37,18 @@ const tweets = [
     build: arr => `${arr[0]} are completely ${arr[1]}.`
   },
   {
+    data: "[adjective] [band] [venue]",
+    build: arr => `Music by the ${arr[0]} ${arr[1]} tonight at ${arr[2]}!`
+  },
+  {
+    data: "[adjective] [band] [venue]",
+    build: arr => `Things are about to get ${arr[0]} with ${arr[1]} later at ${arr[2]}.`
+  },
+  {
+    data: "[band] [band]",
+    build: arr => `${arr[0]} and ${arr[1]} take the stage for the first time together!`
+  },
+  {
     data: "[venue] [band]",
     build: arr => `Drink a beer at ${arr[0]} while listening good music of ${arr[1]}.`
   }  
