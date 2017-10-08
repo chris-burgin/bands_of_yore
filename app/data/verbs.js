@@ -1,4 +1,5 @@
 const verbs = [
+  {value: "abide"},
   {value: "accept"},
   {value: "acknowledge"},
   {value: "admire"},
@@ -22,6 +23,7 @@ const verbs = [
   {value: "enchant"},
   {value: "explain"},
   {value: "fade"},
+  {value: "forbear"},
   {value: "force"},
   {value: "fry"},
   {value: "gasp"},
@@ -39,6 +41,7 @@ const verbs = [
   {value: "instigate"},
   {value: "irritate"},
   {value: "jabber"},
+  {value: "keak"},
   {value: "ken"},
   {value: "kill"},
   {value: "learn"},
