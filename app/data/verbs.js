@@ -45,6 +45,7 @@ const verbs = [
   {value: "ken"},
   {value: "kill"},
   {value: "learn"},
+  {value: "write"},
   {value: "observe"},
   {value: "ponder"},
   {value: "rend"},
