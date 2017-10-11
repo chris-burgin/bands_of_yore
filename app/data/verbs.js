@@ -13,7 +13,7 @@ const verbs = [
   {value: "broadcast"},
   {value: "calculate"},
   {value: "caution"},
-  {value: "chide"}, 
+  {value: "chide"},
   {value: "claim"},
   {value: "clothe"},
   {value: "damage"},
@@ -98,7 +98,11 @@ const verbs = [
   {value: "assist"},
   {value: "serenade"},
   {value: "inquire"},
-  {value: "conjure"}
+  {value: "conjure"},
+  {value: "maim"},
+  {value: "scowl"},
+  {value: "pray"},
+  {value: "craft"}
 ]
 
 module.exports = verbs
