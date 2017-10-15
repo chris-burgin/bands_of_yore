@@ -1,5 +1,6 @@
 const nouns = [
   {value: "alchemy"},
+  {value: "chaos"},
   {value: "minstrel"},
   {value: "Elves"},
   {value: "Gargoyles"},
