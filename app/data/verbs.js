@@ -99,6 +99,39 @@ const verbs = [
   {value: "serenade"},
   {value: "inquire"},
   {value: "conjure"}
+  {value: "condemn"}
+  {value: "catapult"}
+  {value: "commemorate"}
+  {value: "demote"}
+  {value: "decay"}
+  {value: "degrade"}
+  {value: "demonitize"}
+  {value: "devote"}
+  {value: "delay"}
+  {value: "diminish"}
+  {value: "elaborate"}
+  {value: "enunciate"}
+  {value: "expect"}
+  {value: "exxagerate"}
+  {value: "forecast"}
+  {value: "fiddle"}
+  {value: "forgive"}
+  {value: "gaze"}
+  {value: "glare"}
+  {value: "grunt"}
+  {value: "hypnotize"}
+  {value: "hurl"}
+  {value: "invent"}
+  {value: "intimidate"}
+  {value: "insist"}
+  {value: "juggle"}
+  {value: "knit"}
+  {value: "leave"}
+  {value: "linger"}
+  {value: "lean"}
+  {value: "load"}
+  {value: "monger"}
+  {value: "maneuver"}
 ]
 
 module.exports = verbs
