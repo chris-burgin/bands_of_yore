@@ -7,6 +7,7 @@ const nouns = require("../data/nouns")
 const tweets = require("../data/tweets")
 const bands = require("../data/bands")
 const venues = require("../data/venues")
+const days = require("../data/days")
 
 // import functions
 const getRandomEntry = require("./getRandomEntry")
@@ -44,5 +45,6 @@ const dataSwitch = {
   "[adjective]": adjectives,
   "[band]": buildComponent(bands),
   "[noun]": nouns,
-  "[venue]": buildComponent(venues)
+  "[venue]": buildComponent(venues),
+  "[days]": buildComponent(days)
 }
