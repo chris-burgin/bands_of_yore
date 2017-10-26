@@ -98,7 +98,17 @@ const verbs = [
   {value: "assist"},
   {value: "serenade"},
   {value: "inquire"},
-  {value: "conjure"}
+  {value: "conjure"},
+  {value: "attack"},
+  {value: "abandon"},
+  {value: "beguile"},
+  {value: "hoodwink"},
+  {value: "bamboozle"},
+  {value: "spar"},
+  {value: "spat"},
+  {value: "dream"},
+  {value: "dance"}
+  
 ]
 
 module.exports = verbs
