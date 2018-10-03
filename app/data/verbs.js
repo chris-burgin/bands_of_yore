@@ -7,6 +7,7 @@ const verbs = [
   {value: "balance"},
   {value: "beget"},
   {value: "beseech"},
+  {value: "beget"},
   {value: "beset"},
   {value: "beware"},
   {value: "bide"},
