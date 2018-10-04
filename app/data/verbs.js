@@ -21,6 +21,7 @@ const verbs = [
   {value: "drown"},
   {value: "educate"},
   {value: "enchant"},
+  {value: "endure"},
   {value: "explain"},
   {value: "fade"},
   {value: "forbear"},
