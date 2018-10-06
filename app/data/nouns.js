@@ -42,6 +42,7 @@ const nouns = [
   {value: "Ogre Magi"},
   {value: "Owl Bears"},
   {value: "Titans"},
+  {value: "Taradiddle"},
   {value: "Manta Ray"},
   {value: "Masher"},
   {value: "Minotaur Lizard"},
