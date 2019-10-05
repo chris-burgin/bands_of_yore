@@ -62,6 +62,10 @@ const tweets = [
     data: "[band]",
     build: arr => `${arr[0]}'s new song is released!`,
   },
+  {
+    data: "[band] [venue]",
+    build: arr => `${arr[0]} is going to bring down the house tonight at ${arr[1]}!`,
+  },
 ]
 
 module.exports = tweets
